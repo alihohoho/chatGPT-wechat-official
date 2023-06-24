@@ -4,7 +4,7 @@ sys.path.append('C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\
 import uuid
 from os import getenv
 
-from revChatGPT.typing import Error
+from revChatGPT.typings import Error
 from revChatGPT.V1 import Chatbot
 from revChatGPT.V3 import Chatbot as ChatbotByApi
 
